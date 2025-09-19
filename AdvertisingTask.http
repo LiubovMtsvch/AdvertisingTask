@@ -1,0 +1,6 @@
+@AdvertisingTask_HostAddress = http://localhost:5182
+
+GET {{AdvertisingTask_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
