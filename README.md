@@ -57,7 +57,7 @@ Each advertising platform is associated with one or more location paths, such as
   - `/ru/msk` →  "Яндекс.Директ","Газета уральских москвичей"
   - `/ru/svrd` → "Яндекс.Директ","Крутая реклама"
   - `/ru/svrd/revda` →  "Яндекс.Директ", "Крутая реклама", "Ревдинский рабочий"
-  - `/ru` → Яндекс.Директ
+  - `/ru` → "Яндекс.Директ"
 - Just input it in location field in Get method /api/AdPlatform/search. 
 ---
 
