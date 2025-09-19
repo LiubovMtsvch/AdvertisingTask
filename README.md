@@ -7,7 +7,7 @@ This project demonstrates clean REST API design, in-memory data storage, and eff
 
 ---
 
-## 📚 Table of Contents
+## Table of Contents
 
 - Features
 - How Location Matching Works
