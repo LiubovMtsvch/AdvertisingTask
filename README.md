@@ -12,12 +12,9 @@ This project demonstrates clean REST API design, in-memory data storage, and eff
 - Features
 - How Location Matching Works
 - Getting Started
-- Building from Source
-- API Usage
-- Under the Hood
+- Build and run 
 - Testing
-- License
-- Acknowledgements
+
 
 ---
 
@@ -82,9 +79,9 @@ You can find or change these ports in `Properties/launchSettings.json`.
   "Газета уральских москвичей:/ru/msk,/ru/permobl,/ru/chelobl",
   "Крутая реклама:/ru/svrd"
 ]
-2)Just input it in location field: Get method /api/AdPlatform/search -> Try it out -> enter what's written above, click Execute
-3)Open browser and insert this link, for example https://localhost:7195/api/AdPlatform/search?location=/ru/svrd/revda
-4)Get response
+- 2)Just input it in location field: `Get method /api/AdPlatform/search -> `Try it out -> `enter what's written above- > `click Execute
+- 3)Open browser and insert this link, for example `https://localhost:7195/api/AdPlatform/search?location=/ru/svrd/revda
+- 4)Get response
 OR 
 Search for platforms by location Go to GET /api/AdPlatform/search Click Try it out In the location field, enter:
 `/ru/permobl
@@ -99,3 +96,13 @@ git clone https://github.com/LiubovMtsvch/AdvertisingTask.git
 cd AdvertisingTask
 dotnet restore
 dotnet run
+
+
+## Testing
+- 1)Open the project in Visual Studio or your preferred IDE
+- 2)Open the terminal in the project root directory
+- 3)Run the following command:
+
+```dotnet test test
+
+
