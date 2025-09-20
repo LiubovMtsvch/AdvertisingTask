@@ -1,4 +1,4 @@
-﻿# Advertising Platform Selector (.NET Web API)
+# Advertising Platform Selector (.NET Web API)
 
 A fast and lightweight web service designed to help advertisers find relevant advertising platforms for a specific geographic region.
 This project demonstrates clean REST API design, in-memory data storage, and efficient prefix-based search.
@@ -12,9 +12,12 @@ This project demonstrates clean REST API design, in-memory data storage, and eff
 - Features
 - How Location Matching Works
 - Getting Started
-- Build and run 
+- Building from Source
+- API Usage
+- Under the Hood
 - Testing
-
+- License
+- Acknowledgements
 
 ---
 
@@ -72,24 +75,16 @@ By default, the API will run on:
 - `http://localhost:5000` for HTTP
 You can find or change these ports in `Properties/launchSettings.json`.
 
-1) OPEN Visual Studio → File → Clone Repository  
-Insert this link: `https://github.com/LiubovMtsvch/AdvertisingTask.git`  
-Click **Run**
-
-2) Upload platform data using Swagger `POST /api/AdPlatform/load-text`  
-Click **Try it out** and paste the following JSON:
-
-```json
+1)OPEN Visual studio, click on file-> clone repository -> insert this link https://github.com/LiubovMtsvch/AdvertisingTask.git -> Run
 [
   "Яндекс.Директ:/ru",
   "Ревдинский рабочий:/ru/svrd/revda,/ru/svrd/pervik",
   "Газета уральских москвичей:/ru/msk,/ru/permobl,/ru/chelobl",
   "Крутая реклама:/ru/svrd"
 ]
-
-- 2)Just input it in location field: `Get method /api/AdPlatform/search -> `Try it out -> `enter what's written above- > `click Execute
-- 3)Open browser and insert this link, for example `https://localhost:7195/api/AdPlatform/search?location=/ru/svrd/revda
-- 4)Get response
+2)Just input it in location field: Get method /api/AdPlatform/search -> Try it out -> enter what's written above, click Execute
+3)Open browser and insert this link, for example https://localhost:7195/api/AdPlatform/search?location=/ru/svrd/revda
+4)Get response
 OR 
 Search for platforms by location Go to GET /api/AdPlatform/search Click Try it out In the location field, enter:
 `/ru/permobl
@@ -104,13 +99,3 @@ git clone https://github.com/LiubovMtsvch/AdvertisingTask.git
 cd AdvertisingTask
 dotnet restore
 dotnet run
-
-```markdown
-## Testing
-- 1)Open the project in Visual Studio or your preferred IDE
-- 2)Open the terminal in the project root directory
-- 3)Run the following command:
-```bash
-dotnet test
-
-
