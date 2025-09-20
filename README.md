@@ -73,12 +73,12 @@ By default, the API will run on:
 You can find or change these ports in `Properties/launchSettings.json`.
 
 1)OPEN Visual studio, click on file-> clone repository -> insert this link https://github.com/LiubovMtsvch/AdvertisingTask.git -> Run
-[
+```[
   "Яндекс.Директ:/ru",
   "Ревдинский рабочий:/ru/svrd/revda,/ru/svrd/pervik",
   "Газета уральских москвичей:/ru/msk,/ru/permobl,/ru/chelobl",
   "Крутая реклама:/ru/svrd"
-]
+]```
 - 2)Just input it in location field: `Get method /api/AdPlatform/search -> `Try it out -> `enter what's written above- > `click Execute
 - 3)Open browser and insert this link, for example `https://localhost:7195/api/AdPlatform/search?location=/ru/svrd/revda
 - 4)Get response
@@ -95,14 +95,13 @@ You'll see
 git clone https://github.com/LiubovMtsvch/AdvertisingTask.git
 cd AdvertisingTask
 dotnet restore
-dotnet run
+dotnet run```
 
 
 ## Testing
 - 1)Open the project in Visual Studio or your preferred IDE
 - 2)Open the terminal in the project root directory
 - 3)Run the following command:
-
-```dotnet test test
+dotnet test
 
 
