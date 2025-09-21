@@ -103,8 +103,6 @@ cd AdvertisingTask
 dotnet restore
 dotnet run
 
-## Testing
-
 To run unit tests for the project:
 
 1. Open the project in Visual Studio or your preferred IDE  
