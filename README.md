@@ -37,13 +37,17 @@ Endpoint: POST /api/AdPlatform/load-text
 Description: This method replaces all previously stored advertising platform data. 
 You must send a JSON array of strings, where each string contains a platform name followed by a colon : and a comma-separated list of location paths.
 
-Request Body (JSON):
+
+### Example Request Body
+
+```json
 [
   "Яндекс.Директ:/ru",
   "Ревдинский рабочий:/ru/svrd/revda,/ru/svrd/pervik",
   "Газета уральских москвичей:/ru/msk,/ru/permobl,/ru/chelobl",
   "Крутая реклама:/ru/svrd"
 ]
+
 
 
 ## How Location Matching Works
