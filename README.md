@@ -40,7 +40,6 @@ You must send a JSON array of strings, where each string contains a platform nam
 
 ### Example Request Body
 
-```json
 [
   "Яндекс.Директ:/ru",
   "Ревдинский рабочий:/ru/svrd/revda,/ru/svrd/pervik",
@@ -103,4 +102,15 @@ git clone https://github.com/LiubovMtsvch/AdvertisingTask.git
 cd AdvertisingTask
 dotnet restore
 dotnet run
+
+## Testing
+
+To run unit tests for the project:
+
+1. Open the project in Visual Studio or your preferred IDE  
+2. Or open the terminal in the project root directory  
+3. Run:
+   ```bash
+   dotnet test
+
 
