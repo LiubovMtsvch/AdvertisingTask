@@ -85,7 +85,7 @@ You can find or change these ports in `Properties/launchSettings.json`.
   "Газета уральских москвичей:/ru/msk,/ru/permobl,/ru/chelobl",
   "Крутая реклама:/ru/svrd"
 ]
-2)Just input it in location field: Get method /api/AdPlatform/search -> Try it out -> enter what's written above, click Execute
+2)Just input it in location field: Get method /api/AdPlatform/search -> Try it out -> enter what's written above, click Execute  
 3)Open browser and insert this link, for example https://localhost:7195/api/AdPlatform/search?location=/ru/svrd/revda
 4)Get response
 OR 
